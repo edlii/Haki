@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="projectstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Momentum Clone</title>
+</head>
+
+<body id="MomentumCloneBody">
+
+    <p id="CurrentTime"></p>
+
+    <div class="WeatherAndTimeInfo">
+        <h1 id="WeatherTitle"></h1>
+        <p id="WeatherTemp"></p>
+        <p id="WeatherDesc"></p>
+    </div>
+
+    <div id="SpotifyPlayer">
+        <iframe src="https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM" width="300" height="400"
+            frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+
+    <div id="TimerThings">
+        <p id="countdown"></p>
+        <p id="CurrentPomodoro"></p>
+    </div>
+
+    <div class="TodoListApp">
+        <header>Todo List</header>
+        <div class="InputField">
+            <input type="text" id="TodoListTextBox" placeholder=" Add your new todo">
+            <button><i class="fa fa-plus"></i></button>
+        </div>
+        <ul class="listOfTodos">
+        </ul>
+    </div>
+
+</body>
+<script src="momentum.js"></script>
+
+
+</html>

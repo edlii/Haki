@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+#ProjectsBackButton {
+    background-color: black; 
+    border: none;
+    width: 100px;
+    border-radius: 1px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Staatliches", cursive;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+
+#MomentumCloneBody {
+    background-size: cover;
+}
+
+#SpotifyPlayer {
+    position: fixed;
+    height: 100%;
+    top: 60%;
+}
+
+.WeatherAndTimeInfo {
+    color: white;
+    letter-spacing: 3px;
+    font-family: "Staatliches", cursive;
+}
+
+#CurrentTime {
+    position:absolute;
+    right: 0%;
+    color: white;
+    letter-spacing: 3px;
+    font-family: "Staatliches", cursive;    
+}
+
+#TimerThings {
+    text-align: center;
+    padding: 340px 0;
+}
+
+#countdown {
+    color: white;
+    letter-spacing: 3px;
+    font-family: "Staatliches", cursive;    
+    display: inline-flex; 
+}
+
+#CurrentPomodoro {
+    color: white;
+    letter-spacing: 3px;
+    font-family: "Staatliches", cursive;
+}
+
+.TodoListApp {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    right: 0%;
+    top: 60%;
+    max-width: 350px;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.TodoListApp header {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.TodoListApp .InputField {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.InputField input {
+    width: 75%;
+    height: 100%;
+    border: 1px solid black;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.InputField button {
+    width: 40px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color:rgb(165, 105, 221);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 3px;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.InputField button.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.TodoListApp .listOfTodos {
+    max-height: 240px;
+    overflow-y: auto;
+}
+
+.TodoListApp li {
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    background: #f2f2f2;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    padding: 0 15px;
+    width: 80%;
+    cursor: default;
+    overflow-x: hidden;
+    
+}
+
+.TodoListApp li span {
+    position: absolute;
+    right: -45px;
+    background-color: rgb(86, 231, 86);
+    color: white;
+    width: 45px;
+    text-align: center;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.TodoListApp li:hover span {
+    right: 0px;
+}
+
+
+
+
